@@ -1,6 +1,0 @@
-resource_group_name     = "rg-feedback-app-a2"
-location                = "canadacentral"
-app_service_plan_name   = "plan-feedback"
-app_service_name        = "web-feedback-app-500238341-a2"
-storage_account_name    = "feedbacklogs341a2"
-app_insights_name       = "insights-feedback"
