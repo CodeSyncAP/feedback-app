@@ -15,20 +15,21 @@ Key services used:
 
 ---
 ## Project Structure
-feedback-app/
-├── app/ # Flask application
-│ ├── app.py # Main Python app
-│ └── templates/
-│ └── index.html # HTML form for feedback
-│
-├── terraform/ # Infrastructure as Code
-│ ├── main.tf # Terraform configuration
-│ ├── variables.tf # Variables for reusable config
-│ ├── terraform.tfvars # Actual values for the variables
-│ ├── outputs.tf # Output values like Web App URL
-│
-├── screenshot.png # Screenshot of working deployment
-├── README.md # Project documentation
+## 📁 Project Structure
+
+- `feedback-app/`
+  - `app/` — Flask application
+    - `app.py` — Main Python app
+    - `templates/`
+      - `index.html` — HTML form for feedback
+  - `terraform/` — Infrastructure as Code
+    - `main.tf` — Terraform configuration
+    - `variables.tf` — Variables for reusable config
+    - `terraform.tfvars` — Actual values for the variables
+    - `outputs.tf` — Output values like Web App URL
+  - `screenshot.png` — Screenshot of working deployment
+  - `README.md` — Project documentation
+
 ---
 ## Team Member Roles
 
