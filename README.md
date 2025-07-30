@@ -40,13 +40,29 @@ Key services used:
 ---
 
 ## Instructions to Run the Code
+## 🚀 Instructions to Run the App
+
+### 🛠️ Prerequisites
+
+- Python 3.x installed
+- Flask installed (`pip install flask`)
+- Azure CLI installed (for deployment)
+- Terraform installed (for infrastructure provisioning)
+
+---
+
+### 💻 1. Clone the Repository
+
+
+git clone https://github.com/codesyncAP/feedback-app.git
+cd feedback-app
 
 ### Terraform Setup
 
 1. Navigate to the Terraform folder:
 
-   ```bash
    cd terraform
+   
 
 2. Initialize and deploy infrastructure:
    terraform init
