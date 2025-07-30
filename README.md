@@ -6,6 +6,11 @@ This is a collaborative DevOps project for deploying a simple feedback collectio
 
 The app allows users to submit feedback through a web form. All feedback is displayed in real time on the same page. The app is deployed using Azure App Service and configured via Infrastructure as Code using Terraform.
 
+The project demonstrates:
+- Azure Web App deployment using Infrastructure as Code (IaC)
+- Basic full-stack web application structure
+- Collaboration via GitHub and Azure
+
 Key services used:
 - Azure Resource Group
 - Azure App Service Plan (Standard Tier)
@@ -33,10 +38,14 @@ Key services used:
 ---
 ## Team Member Roles
 
-| Name            | Role                                                 |
-|-----------------|------------------------------------------------------|
-| Abdul dagash007 | GitHub & Terraform Lead Azure Resource Validation    |
-| Peter pkkigathi | Flask App Integration,  Documentation & Testing      |
+- **Abdulqudus Balogun** – Worked on the **backend**, including:
+  - Flask application setup
+  - Feedback form logic
+  - Terraform IaC deployment
+
+- **Peter Kigathi** – Worked on the **frontend**, including:
+  - HTML templates and styling
+  - Frontend user interface improvements
 ---
 
 ## Instructions to Run the Code
